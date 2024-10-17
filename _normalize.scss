@@ -1,0 +1,37 @@
+*
+{
+    //nullifying margins
+    padding: 0px;
+    margin: 0px;
+    //set the height/width of the entire element
+    box-sizing: border-box;
+}
+ul,ol,li //reset style for lists
+{
+    list-style: none;
+}
+img, svg  //normalize img
+{
+	max-width: 100%;
+	height: auto;
+}
+img 
+{
+    display: block;
+}
+input, textarea, button, select //normalize interaction blocks
+{
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+input:focus, input:active,
+button:focus, button:active 
+{
+    outline: none;
+}
+html //smooth scroll for full page
+{
+    scroll-behavior: smooth;
+}
