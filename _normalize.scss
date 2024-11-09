@@ -5,6 +5,7 @@
     margin: 0px;
     //set the height/width of the entire element
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
 }
 ul,ol,li //reset style for lists
 {
